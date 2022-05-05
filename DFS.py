@@ -4,5 +4,5 @@ def DFS(graph, start):
 
     for n in graph[start]:
         if n not in visited:
-            dfs(graph, n)
+            DFS(graph, n)
     return visited
